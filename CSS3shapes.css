@@ -1,0 +1,119 @@
+#squares{
+    width:400px;
+    height:200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: block;
+}
+#circles{
+    width:400px;
+    height:200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: block;
+}
+#triangles{
+    width:400px;
+    height:200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: block;
+}
+#pacmans{
+    width:400px;
+    height:200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: block;
+}
+.square{
+    width:140px;
+    height:140px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.square2{
+    width:140px;
+    height:140px;
+    background-color: green;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.circle{
+    width:140px;
+    height:140px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.circle2{
+    width:140px;
+    height:140px;
+    background-color: green;
+    -webkit-border-radius: 70px; 
+    border-radius: 70px; 
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.triangle {
+    width: 0; 
+    height: 0; 
+    border-left: 70px solid transparent; 
+    border-right: 70px solid transparent; 
+    border-bottom: 140px solid blue;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.triangle2 {
+    width: 0; 
+    height: 0; 
+    -webkit-border-left: 70px solid transparent; 
+    -webkit-border-right: 70px solid transparent; 
+    -webkit-border-bottom: 140px solid green;
+    border-left: 70px solid transparent; 
+    border-right: 70px solid transparent; 
+    border-bottom: 140px solid green;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.pacman {
+    width: 0px;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-top: 70px solid blue;
+    border-left: 70px solid blue;
+    border-bottom: 70px solid blue;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.pacman2 {
+    width: 0px;
+    height: 0px;
+    border-right: 70px solid transparent;
+    border-top: 70px solid green;
+    border-left: 70px solid green;
+    border-bottom: 70px solid green;
+    border-radius: 70px 70px 70px 70px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
